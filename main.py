@@ -18,7 +18,7 @@ screen = pygame.display.set_mode([WIDTH, HEIGHT])
 bgs = []
 banners = []
 guns = []
-level = 1
+level = 2
 for i in range(1,4):
     bgs.append(pygame.image.load(f'assets/bgs/{i}.png'))
     banners.append(pygame.image.load(f'assets/banners/{i}.png'))
